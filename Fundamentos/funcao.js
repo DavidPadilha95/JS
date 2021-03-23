@@ -18,7 +18,7 @@ imprimirSoma(2, 3)
 function soma(a, b = 1) {
     return a + b
 }
-console.log(soma(2, 5))
+console.log(soma(2, 5)) // o cinco vai tomar o lugar do 1 na variavel
 console.log(soma(2)) // o resutado sera 3 porque eu defini o b como 1
 
 // Armazenando um função em uma variavel
