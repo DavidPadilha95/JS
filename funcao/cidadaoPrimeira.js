@@ -25,3 +25,12 @@ function soma(a,b){
 }
 
 soma(2,3)(4)
+
+
+//EX 4
+const mostrar = (a, b) => {
+  console.log(`O valor da divisao é ${a/b.toFixed(2)}`)
+  console.log(`O resto é ${a%b}`)
+}
+
+mostrar(8,3)
